@@ -10,11 +10,23 @@ Neste trabalho, você deverá escolher um dataset (ou, se quiser, pode combinar 
 
 ## Como rodar
 
+Clone o repositorio
 ```sh
 git clone <repo>
 cd <repo>
+```
+Crie um ambiente virtual
+```sh
 virtualenv venv
 source venv/bin/activate
+```
+Instale as bibliotecas necessárias
+```sh
 pip install -r requirements.txt
+```
+Inicie o notebook
+```sh
 jupyter notebook
 ```
+
+Obs: o projeto foi feito usando `python 3.7`
